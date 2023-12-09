@@ -37,7 +37,7 @@ const Card = ({ id, title, tags, status }) => {
         </div>
         {tags?.map((element, index) => {
           return (
-            <div key={index} className="tag">
+            <div key={index} className="tag2">
               <span>●</span> {element}
             </div>
           );
