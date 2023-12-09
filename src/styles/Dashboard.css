@@ -1,0 +1,68 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    justify-content: space-evenly;
+}
+
+.addSpace {
+    margin-right: 8px;
+  }
+  
+  .number {
+    margin-left: 8px;
+    color: grey;
+  }
+
+.dashboard {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 15rem;
+    background-color: whitesmoke;
+}
+
+.cardHeading1 {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.selectList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dashboard {
+        width: 100%;
+        max-width: 300px; 
+    }
+}
