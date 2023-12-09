@@ -1,6 +1,6 @@
 An interactive Kanban board application using React JS that interacts with an API and dynamically adjust to reflect the user's choice of display.
 Link:
-[Kanban Board](https://vercel.com/hk0509/kanban-board)
+[Kanban Board](https://kanban-board-hk0509.vercel.app/)
 
 # Getting Started with Create React App
 
